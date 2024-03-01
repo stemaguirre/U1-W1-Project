@@ -15,11 +15,24 @@ body {
 }
 
 h2,
-h3 {
+h3,
+h4 {
   color: #25a2c3;
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   font-weight: bold;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.2rem;
 }
 
 /* HEADER */
@@ -34,63 +47,73 @@ header img {
 }
 
 /* MAIN */
-#main-start {
+#article-start {
   width: 100%;
-  height: 10em;
+  height: 20em;
   background-image: url(../images/banner.jpg);
   background-size: cover;
   text-align: center;
 }
 
-#main-start h2 {
-  padding-top: 1.2em;
+#article-start h2 {
+  padding: 2em 3em 0;
+  line-height: 1em;
 }
 
-#main-start h2 + p {
+#article-start h2 + p {
   margin: 1em 1em 0;
+  padding: 0 2.5em;
 }
 
-#main-start button {
+#article-start button {
   border-radius: 5px;
   background-color: #f04c2f;
   color: white;
   font-weight: bold;
   border: none;
-  margin-top: 1em;
+  margin-top: 2em;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 1em;
+  text-transform: uppercase;
+  padding: 1em 2em;
 }
 
-#main-start button:hover {
-  cursor: alias;
+#article-start button a {
+  text-decoration: none;
+  color: white;
 }
 
-.main-info {
+.article-info {
   width: 100%;
   height: 3em;
+  margin-bottom: 6em;
+  text-align: center;
+}
+
+.article-info p {
+  margin: 1em 2em;
+}
+
+#article-end {
   padding: 1em;
   text-align: center;
 }
 
-#main-end {
-  padding: 1em;
-}
-
-article img {
-  width: 100%;
+#article-end img {
+  width: 70%;
   border-radius: 50%;
+  padding: 1em 1em;
 }
 
 section {
   background-color: #e22d0e;
   text-align: center;
   color: white;
-  line-height: 1em;
+  height: 18em;
 }
 
 section h2 {
   color: white;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 
 section blockquote {
@@ -100,6 +123,10 @@ section blockquote {
 
 #author {
   padding: 1em;
+}
+
+#author p:last-child {
+  font-size: 0.8rem;
 }
 
 aside img {
