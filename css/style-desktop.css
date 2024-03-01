@@ -86,13 +86,18 @@ header img {
   color: white;
 }
 
+#article-start button a:visited {
+  text-decoration: none;
+  color: white;
+}
+
 .article-info {
   width: 100%;
   margin-bottom: 3em;
   text-align: left;
 }
 
-#container {
+#article-container {
   text-align: center;
 }
 
@@ -100,6 +105,7 @@ header img {
   padding: 1em;
   text-align: left;
   display: inline-block;
+  margin-left: 3em;
 }
 
 article img {
@@ -188,6 +194,10 @@ footer li {
 }
 
 footer a {
+  color: #c8e7f0;
+}
+
+footer a:visited {
   color: #c8e7f0;
 }
 
